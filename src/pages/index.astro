@@ -1,13 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Direction from "../components/Direction.astro";
+import Skills from "../components/Skills.astro";
+import Education from "../components/Education.astro";
+import Experience from "../components/Experience.astro";
+import Across from "../components/Across.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
+  <main>
+    <section>
+      <hr />
 
-	</main>
+      <h1>Gabriel Martínez</h1>
+      <Direction />
+      <Skills />
+      <Education />
+      <Experience />
+      <Across />
+    </section>
+  </main>
 </Layout>
 
 <style>
-	
+  section {
+    margin: 10px;
+    padding: 50px 100px ;
+    border: 2px solid black;
+    height: 97svh;
+  }
+
+  h1 {
+    padding: 40px 0 0;
+  }
+ 
 </style>
