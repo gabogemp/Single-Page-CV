@@ -21,18 +21,18 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
-	/* fonts imports */
+  /* fonts imports */
   @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-	@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
 
   :root {
-		/* colors */
+    /* colors */
     --h4-color: #309e45;
-		/* fonts */
+    /* fonts */
     --h1-font: "Quattrocento Sans", sans-serif;
-		--h4-h5-font: "Economica", sans-serif;
-		--p-font: "Hind Madurai", sans-serif;
+    --h4-h5-font: "Economica", sans-serif;
+    --p-font: "Hind Madurai", sans-serif;
   }
 
   * {
@@ -49,17 +49,16 @@ const { title } = Astro.props;
     list-style-type: none;
   }
 
-	h1 {
-		font-family: var(--h1-font);
-	}
+  h1 {
+    font-family: var(--h1-font);
+  }
 
   h4 {
     color: var(--h4-color);
-		font-family: var(--h4-h5-font);
+    font-family: var(--h4-h5-font);
   }
 
-	p {
-		font-family: var(--p-font);
-	}
-
+  p {
+    font-family: var(--p-font);
+  }
 </style>
